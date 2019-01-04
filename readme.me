@@ -37,6 +37,8 @@ git add index.html
 git commit -m "First commit"   /commit and message
 git commit --amend -m    /correction last message
 
+
+
 git diff  /info correct files
 git diff --staged    /info after commit
 
@@ -51,3 +53,8 @@ set LC_ALL=ru_RU.UTF-8
 set LANG=ru_RU.UTF-8
 
 git checkout index.html  /out version file 
+
+git rm index.html   /delete file of commit and file
+git rm --cached index.html   /delete file of commit but not file
+
+it commit --amend --no-edit 
